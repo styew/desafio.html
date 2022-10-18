@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+
+    <style>  
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: aqua;
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(5, 108, 108);
+        min-height: 150px;
+    }
+    .content {
+        background-color: white;
+        min-height: 300px;
+        padding: 20px;
+        width: 100%;
+        
+    }
+    .content input{
+        width: 100%;
+    }
+    .footer {
+        background-color: rgb(99, 56, 240);
+        min-height: 100px;
+        text-align: center;
+    
+    }
+    .texto{
+        float: left;
+        width: 700px;
+    }
+
+</style>  
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="file:///C:/Users/steph/OneDrive/Documentos/desafio/desafio.html">Principal</a></li>
+                <li><a href="file:///C:/Users/steph/OneDrive/Documentos/desafio/sobre.a.clinica.html">Sobre a clínica</a></li>
+                <li><a href="file:///C:/Users/steph/OneDrive/Documentos/desafio/horario.html">Horários</a></li>
+                <li><a href="file:///C:/Users/steph/OneDrive/Documentos/desafio/desafio.form.html">Entrar em contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div class="texto" >
+                    <font size="+5"> <p align="middle"><i style="text-shadow: 3px 3px 1px black; color: aqua;">Radiologia center</p></i></font>
+                    <!-- Aqui vai o seu header -->
+                </div>
+                <span><img src="https://cdn-icons-png.flaticon.com/512/561/561188.png" 
+                width="228px" align="right"> </span>
+        </div>
+    
+            <div class="content" method="post" >
+                <h3>Caso tenha dúvidas, entre em contato com a gente pelo formulário:</h3>
+                <form id="tabela">
+                    <label>name : <input type="name"></label><br>
+                    <label>Email : <input type="email"></label><br>
+                    <label>Assunto : <input type="text"></label><br><br>
+                    <textarea style="width:400px ; height: 100px;"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106685.59983287811!2d-39.635947931028426!3d-6.4291499441277615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a28d60cbf9c6ab%3A0xd9550a700954e363!2zQmFsbmXDoXJpbyBUaW1iYcO6YmE!5e0!3m2!1spt-BR!2sde!4v1666142038737!5m2!1spt-BR!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div> 
+    
+            <div class="footer">
+                <span></span><h3>Contatos:</span></h3>
+                <img src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/whatsapp-logo-icone-fundo-transparente.png?resize=696%2C712&ssl=1" width="20px">
+                <!-- Aqui vai o seu rodapé -->
+                (11) 9 1111-2222 &#160;&#160;
+                <img src="https://www.freepnglogos.com/uploads/logo-telefone-png/contorno-telefone-png--cone-download-35.png "
+                width="20px" title="Número de telefone">
+                (11) 3222-8888 &#160;&#160;
+                <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png?w=360" width="20px" title="Instagram">
+                @clinicaderadiaçãocentralparadoentes
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
